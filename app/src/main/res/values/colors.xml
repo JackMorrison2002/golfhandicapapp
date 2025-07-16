@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0C5141</color> <!-- Green primary -->
+    <color name="primary_variant">#1B5E20</color> <!-- Darker green -->
+    <color name="button_text">#FFFFFF</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="background">#121212</color>
+    <color name="surface_light">#E8F5E9</color> <!-- very light green background -->
+    <color name="input_text">#000000</color> <!-- black text inside inputs -->
+
+
+
+</resources>

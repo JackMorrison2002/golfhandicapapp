@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Select Your Course"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- ✅ Replaced Spinner with AutoCompleteTextView -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteCourses"
+        android:hint="Start typing course..."
+        android:textColor="@color/input_text"
+        android:background="@color/surface_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnConfirmCourse"
+        android:text="Confirm Course"
+        android:textColor="@color/button_text"
+        android:backgroundTint="@color/primary"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
